@@ -81,8 +81,6 @@
 		8A246B1C1A6F8E52005D06FE /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				8A246B211A6F8E52005D06FE /* AppDelegate.h */,
-				8A246B221A6F8E52005D06FE /* AppDelegate.m */,
 				8A246B241A6F8E52005D06FE /* ViewController.h */,
 				8A246B251A6F8E52005D06FE /* ViewController.m */,
 				8A246B271A6F8E52005D06FE /* Main.storyboard */,
@@ -96,6 +94,8 @@
 		8A246B1D1A6F8E52005D06FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A246B211A6F8E52005D06FE /* AppDelegate.h */,
+				8A246B221A6F8E52005D06FE /* AppDelegate.m */,
 				8A246B1E1A6F8E52005D06FE /* Info.plist */,
 				8A246B1F1A6F8E52005D06FE /* main.m */,
 			);
@@ -346,6 +346,7 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,6 +357,7 @@
 				INFOPLIST_FILE = AutoLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
